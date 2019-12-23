@@ -1,0 +1,11 @@
+2019-08-06 18:38:01,977 +0530 [main] INFO  (HibernateUtil.java:57) - Hibernate Configuration loaded
+2019-08-06 18:38:01,977 +0530 [main] INFO  (HibernateUtil.java:58) - Hibernate serviceRegistry created
+2019-08-06 18:38:04,202 +0530 [main] INFO  (HibernateLog4jExample.java:38) - List of Employees::15,Test City
+2019-08-06 18:38:04,204 +0530 [main] INFO  (HibernateLog4jExample.java:38) - List of Employees::16,New City
+2019-08-06 18:38:04,204 +0530 [main] INFO  (HibernateLog4jExample.java:38) - List of Employees::18,Test City
+2019-08-06 18:38:04,204 +0530 [main] INFO  (HibernateLog4jExample.java:38) - List of Employees::20,Test City
+2019-08-06 18:38:04,204 +0530 [main] INFO  (HibernateLog4jExample.java:38) - List of Employees::1,San Jose
+2019-08-06 18:38:04,204 +0530 [main] INFO  (HibernateLog4jExample.java:38) - List of Employees::2,Santa Clara
+2019-08-06 18:38:04,204 +0530 [main] INFO  (HibernateLog4jExample.java:38) - List of Employees::3,Bangalore
+2019-08-06 18:38:04,205 +0530 [main] INFO  (HibernateLog4jExample.java:38) - List of Employees::4,New Delhi
+2019-08-06 18:38:04,220 +0530 [main] INFO  (HibernateLog4jExample.java:43) - DONE

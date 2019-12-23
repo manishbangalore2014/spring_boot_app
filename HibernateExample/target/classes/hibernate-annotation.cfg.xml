@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 5.0//EN"
+		"http://hibernate.org/dtd/hibernate-configuration-5.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- Database connection properties - Driver, URL, user, password -->
+		<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+		<property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
+		<property name="hibernate.connection.username">demoadmin</property>
+		<property name="hibernate.connection.password">Manish</property>
+		
+		<!-- org.hibernate.HibernateException: No CurrentSessionContext configured! -->
+		<property name="hibernate.current_session_context_class">thread</property>
+		
+			<!-- Outputs the SQL queries, should be disabled in Production -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		
+		<!-- Mapping with model class containing annotations -->
+		<mapping class="com.journaldev.hibernate.model.Employee"/>
+		<mapping class="com.journaldev.hibernate.model.Address"/>
+	</session-factory>
+</hibernate-configuration>
