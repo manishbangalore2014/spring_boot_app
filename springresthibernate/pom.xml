@@ -11,7 +11,7 @@
 		<spring.version>5.1.0.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
 		<hibernate.version>5.2.11.Final</hibernate.version>
-		<jackson.version>2.9.4</jackson.version>
+		<jackson.version>2.9.10.4</jackson.version>
 		<oracle.connector.version>11.2.0</oracle.connector.version>
 </properties>
   <dependencies>
